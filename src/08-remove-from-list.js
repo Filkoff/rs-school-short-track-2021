@@ -18,17 +18,25 @@
  */
 
 function removeKFromList(/* l, k */) {
-  throw new Error('Not implemented');
   // const temp = l;
-  // // for (let i = 0; i < temp.length; i++) {
-  //   newArr.forEach((i, ind) => {
-  //     if (i === k)
-  //   })
-  //   if (l[i] === k) {
-  //     newArr = l.splice(i, 1);
+  // let current = this.head;
+  // if (current === k) {
+  //   if (i === 0) {
+  //     this.head = current.next;
+  //   } else {
+  //     let prev = 0;
+  //     let index = 0;
+  //     while (index < i) {
+  //       prev = current;
+  //       current = current.next;
+  //       index++;
+  //     }
+  //     prev.next = current.next;
   //   }
+  //   this.length--;
   // }
-  // return newArr;
+  // return l;
+  throw new Error('Not implemented');
 }
 
 module.exports = removeKFromList;
